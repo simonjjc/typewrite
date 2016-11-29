@@ -1,0 +1,22 @@
+ body{
+                /*设置背景的线型渐变效果，不要忘记给body加一个高度*/
+                background: radial-gradient(circle,lightgray,blue,yellow);
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                
+            }
+            #char{
+                font-size: 200px;
+                color: lightgreen;
+                /*第一个值：设置x轴位置的阴影
+                第二个值：设置y轴位置的阴影
+                第三个值：设置半径的阴影
+                第四个值：设置颜色*/
+                text-shadow: 0 0 50px red;
+            }
+            #result{
+                color: #ccc;
+            }
